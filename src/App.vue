@@ -8,7 +8,7 @@
         alt="Vue logo"
         src="./assets/sparrow.png"
       >
-      <h1 class="mb-0 px-1">User Form</h1>
+      <h1 class="mb-0 px-1">Dynamic Form</h1>
     </div>
     <div class="d-flex">
       <b-col>
@@ -21,7 +21,7 @@
         />
       </b-col>
       <b-col>
-        <b-card class="reult-card shadow">
+        <b-card class="result-card shadow">
           <h1 class="h5">Result: </h1>
           <p>{{ user }}</p>
         </b-card>
@@ -125,5 +125,8 @@ export default {
 }
 img {
   height: 75px;
+}
+.result-card {
+  min-height: 250px;
 }
 </style>
